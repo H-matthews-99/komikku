@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Beranda from '../views/Beranda.vue'
+import beranda from '../views/beranda.vue'
 import Aksi from '../views/Aksi.vue'
 import Petualangan from '../views/Petualangan.vue'
 import Komedi from '../views/Komedi.vue'
@@ -12,7 +12,7 @@ import SciFi from '../views/SciFi.vue'
 import Tentang from '../views/Tentang.vue'
 
 const routes = [
-  { path: '/', component: Beranda },
+  { path: '/', component: beranda },
   { path: '/aksi', component: Aksi },
   { path: '/petualangan', component: Petualangan },
   { path: '/komedi', component: Komedi },
