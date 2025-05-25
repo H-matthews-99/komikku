@@ -1,27 +1,27 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import beranda from '../views/beranda.vue'
-import Aksi from '../views/Aksi.vue'
-import Petualangan from '../views/Petualangan.vue'
-import Komedi from '../views/Komedi.vue'
-import Drama from '../views/Drama.vue'
-import Fantasi from '../views/Fantasi.vue'
-import Horor from '../views/Horor.vue'
-import Romantis from '../views/Romantis.vue'
-import SciFi from '../views/SciFi.vue'
-import Tentang from '../views/Tentang.vue'
+import aksi from '../views/aksi.vue'
+import petualangan from '../views/petualangan.vue'
+import komedi from '../views/komedi.vue'
+import drama from '../views/drama.vue'
+import fantasi from '../views/fantasi.vue'
+import horor from '../views/horor.vue'
+import romantis from '../views/romantis.vue'
+import sciFi from '../views/sciFi.vue'
+import tentang from '../views/tentang.vue'
 
 const routes = [
   { path: '/', component: beranda },
-  { path: '/aksi', component: Aksi },
-  { path: '/petualangan', component: Petualangan },
-  { path: '/komedi', component: Komedi },
-  { path: '/drama', component: Drama },
-  { path: '/fantasi', component: Fantasi },
-  { path: '/horor', component: Horor },
-  { path: '/romantis', component: Romantis },
-  { path: '/scifi', component: SciFi },
-  { path: '/tentang', component: Tentang },
+  { path: '/aksi', component: aksi },
+  { path: '/petualangan', component: petualangan },
+  { path: '/komedi', component: komedi },
+  { path: '/drama', component: drama },
+  { path: '/fantasi', component: fantasi },
+  { path: '/horor', component: horor },
+  { path: '/romantis', component: romantis },
+  { path: '/scifi', component: sciFi },
+  { path: '/tentang', component: tentang },
 ]
 
 const router = createRouter({
