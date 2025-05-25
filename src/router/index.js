@@ -8,7 +8,7 @@ import drama from '../views/drama.vue'
 import fantasi from '../views/fantasi.vue'
 import horor from '../views/horor.vue'
 import romantis from '../views/romantis.vue'
-import sciFi from '../views/sciFi.vue'
+import sciFi from '../views/scifi.vue'
 import tentang from '../views/tentang.vue'
 
 const routes = [
@@ -20,7 +20,7 @@ const routes = [
   { path: '/fantasi', component: fantasi },
   { path: '/horor', component: horor },
   { path: '/romantis', component: romantis },
-  { path: '/scifi', component: sciFi },
+  { path: '/scifi', component: scifi },
   { path: '/tentang', component: tentang },
 ]
 
